@@ -22,6 +22,7 @@
         <java.version>17</java.version>
         <lombok.version>1.18.26</lombok.version>
         <spring-cloud-gateway.version>4.0.4</spring-cloud-gateway.version>
+        <spring-cloud-netflix-client.version>4.0.1</spring-cloud-netflix-client.version>
     </properties>
 
 
@@ -30,6 +31,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-gateway</artifactId>
             <version>${spring-cloud-gateway.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <version>${spring-cloud-netflix-client.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
