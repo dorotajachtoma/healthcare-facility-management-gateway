@@ -1,2 +1,2 @@
 # healthcare-facility-management-gateway
-Spring Boot Cloud-based API gataway for System Management of Healthcare Facilities
+Spring Boot Cloud-based API gateway for System Management of Healthcare Facilities
